@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Web GIS Sumber Daya Alam Kabupaten Bojonegoro Bojonegoro</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded">
+                <a class="nav-link py-0 px-0 px-lg-0 rounded js-scroll-trigger" href="../../index.html">
+                    <i class="fas fa-home"></i>
+                </a></li>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="../../index.html">
+                            <h5>Home</h5>
+                        </a></li>
+                </ul>
+                <img class="img-rounded no-padding" src="assets/img/wigda.png" width="50px">
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#beranda">Informasi
+                                Peta</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1"><a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#objekwisata">Informasi
+                                Wisata</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center"
+        style="background-image: url('assets/img/wisata.png'); width: 100%;">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/wigda.png" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0"></h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Web GIS Sumber Daya Alam Kabupaten Bojonegoro</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="beranda">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h6 class="page-section-heading text-center text-uppercase text-secondary mb-0">Informasi Peta</h6>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-database"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-camera-retro fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Objek Wisata</h4>
+                    <p class="text-muted">Menyajikan informasi seputar peta persebaran objek wisata di Kabupaten
+                        Bojonegoro.</p>
+                    <a href="objek_wisata/objek_wisata.html" class="btn btn-primary">Jelajahi Peta</a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-hotel fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Tempat Penginapan</h4>
+                    <p class="text-muted">Menyajikan informasi seputar peta persebaran tempat penginapan di Kabupaten
+                        Bojonegoro.</p>
+                    <a href="penginapan/penginapan.html" class="btn btn-primary">Jelajahi Peta</a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-coffee fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Rumah Makan</h4>
+                    <p class="text-muted">Menyajikan informasi seputar peta persebaran rumah makan di Kabupaten
+                        Bojonegoro.</p>
+                    <a href="rumah_makan/rumah_makan.html" class="btn btn-primary">Jelajahi Peta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Objek Wisata-->
+    <section class="page-section portfolio" id="objekwisata">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="page-section-heading text-center text-uppercase text-secondary mb-0">Informasi Wisata</h6>
+                <h6 class="section-subheading text-muted">Menyajikan informasi persebaran objek wisata di Kabupaten
+                    Bojonegoro.</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/belimbing.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Agrowisata Belimbimg</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/tirta.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Wana Tirta Dander</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/rajekwesi.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Taman Rajekwesi</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/teksas.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Teksas Wonocolo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/tono.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Bukit Tono</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/maor.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Air Terjun Kedung Maor</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/kayangan.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Kayangan Api</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/negeri.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Negeri di Atas Angin</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/pucangarum.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Grojogan Pucangarum</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/gupit.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Air Terjun Kedung Gupit</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/kikik.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Air Terjun Goa Kikik</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/sendang.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Sendang Grogolan</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/banyu.jpg" alt="" />
+                        </a>
+                        <div class="portfoio-caption">
+                            <div class="portfolio-caption-heading">Banyu Kuning</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/gofun.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Gro Fun Theme Park</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-edit fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="img/taman.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Taman Wisata Sariyo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Modals-->
+    <!-- Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Agrowisata Belimbing</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/belimbing.jpg" alt="" />
+                                <p style="text-align: justify;">Untuk para traveller yang suka dengan buah-buahan
+                                    seperti mengunjungi agrowisata
+                                    belimbing bisa menjadi pilihan menarik. Nantinya di tempat wisata ini akan membuat
+                                    Anda leluasa untuk memetik buah belimbing langsung dari pohonnya. Luas lahan sekitar
+                                    20 hektar dan memiliki beberapa gazebo yang tersebar di beberapa sudut.Harga
+                                    belimbing disini juga cukup terjangkau dan banyak olahan buah belimbing yang bisa
+                                    Anda cicipi. Lokasi tempat wisata ini berada di Desa Ngringinrejo, Kecamatan
+                                    Kalitidu. Anda bisa membawa oleh-oleh dari sini.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Wana Tirta Dander</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/tirta.jpg" alt="" />
+                                <p style="text-align: justify;">Sebagai salah satu tempat wisata di Bojonegoro yang
+                                    hits, Wana Tirta Dander ini
+                                    menyajikan pemandangan yang indah dan banyak fasilitas yang lengkap. Anda bisa
+                                    menjelajahi kolam arus, seluncur air, blower embun dan permainan menyenangkan
+                                    lainnya.Lokasinya ada di Dander, Bojonegoro. Jaraknya sekitar 13 km dari pusat Kota
+                                    Bojonegoro. Ada juga kolam renang di lokasi wisata yang melengkapi fasilitas di
+                                    sana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Taman Rajekwesi</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/rajekwesi.jpg" alt="" />
+                                <p style="text-align: justify;">Tempat wisata di Bojonegoro berikutnya adalah Taman
+                                    Rajekwesi. Taman rekreasi ini
+                                    menawarkan pengalaman liburan yang meriah dan menyenangkan. Ada suasana alam yang
+                                    sejuk dimana Anda bisa santai bersama keluarga dan anak-anak. Ada fasilitas yang
+                                    sudah disediakan seperti jogging track dan arena bermain anak. Lokasi Taman
+                                    Rajekwesi ini berada di Jalan Rajekwesi Bojonegoro.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Teksas Wonocolo</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/teksas.jpg" alt="" />
+                                <p style="text-align: justify;">Teksas merupakan singkatan dari Tekad Selalu Aman dan
+                                    Sejahtera. Tempat wisata ini
+                                    menjadi media edukasi yang cukup bermanfaat karena memberi wawasan tentang
+                                    pengeboran minyak dengan cara tradisional. Mirip dengan Texas yang ada di Amerika,
+                                    tempa ini memiliki 250 sumur bor minyak bumi yang sudah tidak aktif.Lokasinya berada
+                                    di Geopark Wonocolo, Kecamatan Kedewean. Anda bisa datang dan mengajak teman-teman
+                                    untuk menambah wawasan tentang pengeboran minyak yang dulu pernah dilakukan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Bukit Tono</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/tono.jpg" alt="" />
+                                <p style="text-align: justify;">Bukit Tono menghadirkan tempat wisata yang berupa spot
+                                    foto yang mempesona dan
+                                    lingkungan sekitar yang begitu asri. Di lokasi ini kabarnya sedang dipersiapkan
+                                    sebuah taman bunga. Juga dengan adanya camping ground agar bisa memberi fasilitas
+                                    yang lebih lengkap.Lokasinya ada di Desa Sambungrejo, Kecamatan Gondang. Bagi para
+                                    pecinta fotografi akan mudah menemukan tempat foto keren yang ada di Bukit Tono.</p>
+                                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                    <i class="fas fa-times mr-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Air Terjun Kedung Maor</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/maor.jpg" alt="" />
+                                <p style="text-align: justify;">Air terjun ini dikelilng hutan jati yang tetu membuat
+                                    pemandangan kian indah.
+                                    Perjalanan menuju lokasi juga akan lebih mudah karena ada banyak petunjuk arah. Air
+                                    Terjun Kedung maor ini memberi pemandangan alam dengan adanya deretan tebing yang
+                                    luas. Juga dengan lingkungan asri dan air kolam yang berwarna kehijauan.Lokasi air
+                                    terjun berada di Kedungsumber, Temayang. Mereka yang datang sering melakukan
+                                    foto-foto di spot cantik. Juga bermain air di pinggiran kolam yang dangkal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 7-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Kayangan Api</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/kayangan.jpg" alt="" />
+                                <p style="text-align: justify;">Tempat wisata yang satu ini merupakan kayangan api yang
+                                    menjadi lokasi wisata cukup
+                                    fenomenal. Anda bisa melihat api abadi dan menjadi daya tarik cukup besar. Bahkan
+                                    popularitas api abadi ini semakin dikenal setelah digunakan sebagai lokasi untuk
+                                    pengambilan api di tahun 2000 silam untuk PONXV. Nantinya tak jauh dari lokasi, ada
+                                    semacam kubangan lumpur dengan aroma belerang yang diketahui namanya adalah
+                                    belukutuk. Masyarakat juga meyakini kalau kayangan api ini ada sejak zaman Kerajaan
+                                    Majapahit. Lokasinya ada di Desa Sendangharjo, Kecamatan Ngasem.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 8-->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Negeri di Atas Angin</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/negeri.jpg" alt="" />
+                                <p style="text-align: justify;">Negeri di atas angin merupakan tempat wisata yang juga
+                                    cukup populer. Ketinggian
+                                    tanahnya sekitar 650 meter. Anda bisa menyaksikan keindahan alam di sekitar karena
+                                    adanya pemandangan tak biasa. Pengunjung bisa camping di bukit cinta yang menjadi
+                                    ddestinasi wisata unggulan di sana.Lokasinya ada di sekitar 50 km dari pusat kota
+                                    Bojonegoro. Negeri di atas angin ini memang banyak digunakan sebagai tempat untuk
+                                    foto pre wedding.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 9-->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Grojogan Pucangarum</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/pucangarum.jpg" alt="" />
+                                <p style="text-align: justify;">Agar bisa sampai di Grojogan Pucangarum, wisatawan
+                                    memang harus menempuh perjalanan
+                                    yang cukup sulit. Namun sesampainya disana, Anda bisa menemukan pemandangan yang
+                                    masih begitu alami dan terjaga. Aksesnya ada di jalur ekstrem di sepanjang 4 km dan
+                                    memasuki kawasan hutan hingga sampai di ujung hutan. Sementara untuk perjalanan ini
+                                    Anda hanya bisa menggunakan sepeda motor dan harus berjalan kaki setelah parkir
+                                    sekitar 500 m. Lokasinya ada di Dusun Maor, Desa Clebung, Kecamatan Bubulan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 10-->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Air Terjun Kedung Gupit</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/gupit.jpg" alt="" />
+                                <p style="text-align: justify;">Air terjun indah ini ada di perbatasan antara Desa
+                                    Krondonan dan juga Desa Gayam.
+                                    Lokasi air terjun memang tersembunyi di balik bukit dan memiliki ketinggian sekitar
+                                    8 meter. Aliran airnya juga melebar di sisi tebing. Agar bisa memudahkan perjalanan,
+                                    Anda bisa melewati jalur dari Desa Krondonan dan jalan kaki 1 km melewati jalan
+                                    setapak. Agar terasa lebih segar, Anda bisa bermain air dan mendapat spot cantik
+                                    untuk berfoto. Lokasi air terjun ini ada di Desa Gayam, Kecamatan Sekar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 11-->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Air Terjun Goa Kikik</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/kikik.jpg" alt="" />
+                                <p style="text-align: justify;">Menjadi air terjun bertingkat dengan panorama alam yang
+                                    eksotis di Bojonegoro membuat
+                                    Air Terjun Gua Kikik makin populer. Ada gemericik air yang mengalir dan ada kicauan
+                                    burung yang bisa menyambut kedatangan para pengunjung. Nantinya Anda bisa
+                                    mengeksplor keindahan dari air terjun ini. Lintasan air terjun seolah membentuk
+                                    ornamen stalakmit yang memang lazim di dalam gua. Pada air terjun tingkat pertama,
+                                    Anda bisa meihat curahan air yang tingginya lebih dari 3 meter. Air terjun tingkat
+                                    kedua terdiri dari beberapa air terjun kecil. Lokasinya ada di Desa Kawengan,
+                                    Kecamatan Kedewan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 12-->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Sendang Grogolan</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/sendang.jpg" alt="" />
+                                <p style="text-align: justify;">Sendang Grogolan merupakan aliran air yang begitu jernih
+                                    dan dari sumber mata air
+                                    alami. Spot wisata ini memang menarik untuk dikunjungi dimana lingkungan di
+                                    sekelilingnya memang asri dan teduh. Tak heran jika para pengunjung bisa begitu
+                                    nyaman dan betah. Selain santai, Anda bisa menikmati keindahan alamnya. Juga dengan
+                                    aktivitas berfoto dengan spot keren. Lokasinya ada di Desa Ngunut, Kecamatan Dander.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 13-->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Banyu Kuning</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/banyu.jpg" alt="" />
+                                <p style="text-align: justify;">Banyu Kuning merupakan lokasi wisata yang tidak hanya
+                                    menawarkan pesona alam tetapi
+                                    juga memberi manfaat yang bagus untuk kesehatan. Tak heran kalau para wisatawan
+                                    datang dengan tujuan demi pengobatan. Air hangat disini memiliki kandungan belerang
+                                    yang bisa mengobati penyakit kulit atau gatal-gatal. Letak banyu kuning ini berada
+                                    di Dusun Jumblangjati, Desa Krondonan. Aksesnya cukup mudah dan konon memang ada
+                                    efek menyehatkan dari air Banyu Kuning ini.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 14-->
+    <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Go Fun Theme Park</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/gofun.jpg" alt="" />
+                                <p style="text-align: justify;">Tempat wisata di Bojonegoro berikutnya adalah Go Fun
+                                    Theme Park. Tempat wisata ini
+                                    paling hits dan ramai akan pengunjung. Anda bisa berlibur seru di malam hari.
+                                    Konsepnya memang mirip dengan Disney Land yang lengkap dengan banyak fasilitas. Di
+                                    sini nanti Anda bisa menemukan life guard yang juga standby di tiap kolam.
+                                    Masing-masing kolam juga memiliki tema yang khas dan begitu unik. Lokasinya ada di
+                                    Jalan Veteran, Jambean.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal 15-->
+    <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here-->
+                                <h2 class="text-uppercase">Taman Wisata Sariyo</h2>
+                                <img class="img-fluid d-block mx-auto" src="img/taman.jpg" alt="" />
+                                <p style="text-align: justify;">Taman wisata sariyo merupakan tempat yang asik yang ada
+                                    di Bojonegoro. Tempat ini
+                                    menyajikan berbagai wahana yang seru. Seperti waterboom, kolam pancing, becak air
+                                    dan permainan lainnya. ada banyak fasilitas yang cukup lengkap dan tentu menjadi
+                                    pengalaman seru ketika Anda berlibur. Lokasinya berada di Purworejo, Pandangan.
+                                    Taman wisata ini cocok dikunjungi bersama dengan keluarga terutama anak-anak. Anda
+                                    bisa duduk santai dan menikmati udara sejuk di sekitar taman.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small style="color: aliceblue;">Web Informasi Geospasial Kabupaten Bojonegoro
+                2020</small></div>
+    </div>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

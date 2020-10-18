@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>WIGDA Bojonegoro</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- Custom styles for this page -->
+    <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">WIGDA Kab. Bojonegoro</a>
+            <img class="img-rounded no-padding" src="assets/img/wigda.png" width="50px">
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#home">Informasi Utama</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#kecamatan">Cari Kecamatan</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#about">Info Lain</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/wigda.png" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">WIGDA</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Web Informasi Geospasial Dareah</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="home">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h5 class="page-section-heading text-center text-uppercase text-secondary mb-0">Informasi Utama</h5>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-database"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row">
+                <!-- Kependudukan-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#Kependudukan">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Kependudukan.png" alt="" />
+                    </div>
+                </div>
+                <!-- Sarana Prasarana -->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#SaranaPrasarana">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Sarpras.png" alt="" />
+                    </div>
+                </div>
+                <!-- Aksesbilitas-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#Aksesbilitas">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Akses.png" alt="" />
+                    </div>
+                </div>
+                <!--Penggunaan Lahan-->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#PenggunaanLahan">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/PL.png" alt="" />
+                    </div>
+                </div>
+                <!--Bentuk Lahan -->
+                <div class="col-md-6 col-lg-4 mb-5 ">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#BentukLahan">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/BL.png" alt="" />
+                    </div>
+                </div>
+                <!-- Sumber Daya Alam-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#SumberDayaAlam">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/SDA.png" alt="" />
+                    </div>
+                </div>
+                <!-- Ekonomi-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#Ekonomi">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Ekonomi.png" alt="" />
+                    </div>
+                </div>
+                <!-- Analisis Spasial-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#AnalisisSpasial">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Analisis.png" alt="" />
+                    </div>
+                </div>
+                <!-- Laporkan Masalah-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#LaporkanMasalah">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-map-marker-alt fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/Laporan.png" alt="" />
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- CARI KECAMATAN-->
+    <section class="page-section bg-primary2 text-white mb-0" id="kecamatan">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h5 class="page-section-heading text-center text-uppercase text-secondary">Cari Kecamatan</h5>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-map-pin"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="card-body">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary" style="text-align: center;">Cari Kecamatan</h5>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <div class="form-row ">
+                                <div class="form-group col-md-6">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1"><b>Kecamatan</b></label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option selected>Pilih Kecamatan...</option>
+                                            <option>Balen</option>
+                                            <option>Baureno</option>
+                                            <option>Bojonegoro</option>
+                                            <option>Bubulan</option>
+                                            <option>Dander</option>
+                                            <option>Gayam</option>
+                                            <option>Gondang</option>
+                                            <option>Kalitidu</option>
+                                            <option>Kanor</option>
+                                            <option>Kapas</option>
+                                            <option>Kasiman</option>
+                                            <option>Kedawen</option>
+                                            <option>Kedungadem</option>
+                                            <option>Kepohbaru</option>
+                                            <option>Malo</option>
+                                            <option>Margomulyo</option>
+                                            <option>Ngambon</option>
+                                            <option>Ngasem</option>
+                                            <option>Ngraho</option>
+                                            <option>Padangan</option>
+                                            <option>Purwosari</option>
+                                            <option>Sekar</option>
+                                            <option>Sugihwaras</option>
+                                            <option>Sukosewu</option>
+                                            <option>Sumberrejo</option>
+                                            <option>Tambakrejo</option>
+                                            <option>Temayang</option>
+                                            <option>Trucuk</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="exampleFormControlSelect1"><b>Informasi</b></label>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                        <option selected>Pilih Informasi...</option>
+                                        <option>Kependudukan</option>
+                                        <option>Aksesbilitas</option>
+                                        <option>Sarana dan Prasarana</option>
+                                        <option>Penggunaan Lahan</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary" class="fas fa-search"><i
+                                    class="fas fa-search mr-2"></i>Cari Kecamatan</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+                <!-- Data Desa-->
+            </div class="card shadow mb-4">
+            <div class="card-header py-3">
+                <h6 class="m-0 font-weight-bold text-primary">Data Informasi Jumlah Kecamatan di Kabupaten Bojoneoro
+                </h6>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th>Kecamatan</th>
+                                <th>Desa/Kelurahan</th>
+                                <th>Dusun</th>
+                                <th>Rukun Warga</th>
+                                <th>Rukun Tetangga</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Bojonegoro</td>
+                                <td>18</td>
+                                <td>41</td>
+                                <td>43</td>
+                                <td>105</td>
+                            </tr>
+                            <tr>
+                                <td>Sekar</td>
+                                <td>6</td>
+                                <td>35</td>
+                                <td>60</td>
+                                <td>155</td>
+                            </tr>
+                            <tr>
+                                <td>Gayam</td>
+                                <td>12</td>
+                                <td>37</td>
+                                <td>61</td>
+                                <td>200</td>
+                            </tr>
+                            <tr>
+                                <td>Margomulyo</td>
+                                <td>6</td>
+                                <td>41</td>
+                                <td>43</td>
+                                <td>105</td>
+                            </tr>
+                            <tr>
+                                <td>Ngraho</td>
+                                <td>16</td>
+                                <td>58</td>
+                                <td>131</td>
+                                <td>318</td>
+                            </tr>
+                            <tr>
+                                <td>Tambakrejo</td>
+                                <td>18</td>
+                                <td>66</td>
+                                <td>89</td>
+                                <td>357</td>
+                            </tr>
+                            <tr>
+                                <td>Ngambon</td>
+                                <td>5</td>
+                                <td>16</td>
+                                <td>23</td>
+                                <td>66</td>
+                            </tr>
+                            <tr>
+                                <td>Bubulan</td>
+                                <td>5</td>
+                                <td>17</td>
+                                <td>25</td>
+                                <td>86</td>
+                            </tr>
+                            <tr>
+                                <td>Gondang</td>
+                                <td>7</td>
+                                <td>32</td>
+                                <td>45</td>
+                                <td>166</td>
+                            </tr>
+                            <tr>
+                                <td>Temayang</td>
+                                <td>12</td>
+                                <td>37</td>
+                                <td>26</td>
+                                <td>110</td>
+                            </tr>
+                            <tr>
+                                <td>Sugihwaras</td>
+                                <td>17</td>
+                                <td>54</td>
+                                <td>88</td>
+                                <td>287</td>
+                            </tr>
+                            <tr>
+                                <td>Kedungadem</td>
+                                <td>23</td>
+                                <td>95</td>
+                                <td>164</td>
+                                <td>586</td>
+                            </tr>
+                            <tr>
+                                <td>Kepohbaru</td>
+                                <td>25</td>
+                                <td>73</td>
+                                <td>102</td>
+                                <td>438</td>
+                            </tr>
+                            <tr>
+                                <td>Baureno</td>
+                                <td>25</td>
+                                <td>56</td>
+                                <td>165</td>
+                                <td>462</td>
+                            </tr>
+                            <tr>
+                                <td>Kanor</td>
+                                <td>25</td>
+                                <td>59</td>
+                                <td>97</td>
+                                <td>408</td>
+                            </tr>
+                            <tr>
+                                <td>Sumberrejo</td>
+                                <td>26</td>
+                                <td>79</td>
+                                <td>99</td>
+                                <td>430</td>
+                            </tr>
+                            <tr>
+                                <td>Balen</td>
+                                <td>23</td>
+                                <td>56</td>
+                                <td>80</td>
+                                <td>430</td>
+                            </tr>
+                            <tr>
+                                <td>Sukosewu</td>
+                                <td>14</td>
+                                <td>41</td>
+                                <td>53</td>
+                                <td>288</td>
+                            </tr>
+                            <tr>
+                                <td>Kapas</td>
+                                <td>21</td>
+                                <td>35</td>
+                                <td>43</td>
+                                <td>309</td>
+                            </tr>
+                            <tr>
+                                <td>Trucuk</td>
+                                <td>12</td>
+                                <td>26</td>
+                                <td>30</td>
+                                <td>174</td>
+                            </tr>
+                            <tr>
+                                <td>Dander</td>
+                                <td>16</td>
+                                <td>43</td>
+                                <td>69</td>
+                                <td>366</td>
+                            </tr>
+                            <tr>
+                                <td>Ngasem</td>
+                                <td>17</td>
+                                <td>53</td>
+                                <td>96</td>
+                                <td>348</td>
+                            </tr>
+                            <tr>
+                                <td>Kalitidu</td>
+                                <td>18</td>
+                                <td>44</td>
+                                <td>79</td>
+                                <td>289</td>
+                            </tr>
+                            <tr>
+                                <td>Malo</td>
+                                <td>20</td>
+                                <td>52</td>
+                                <td>101</td>
+                                <td>230</td>
+                            </tr>
+                            <tr>
+                                <td>Purwosari</td>
+                                <td>12</td>
+                                <td>32</td>
+                                <td>61</td>
+                                <td>201</td>
+                            </tr>
+                            <tr>
+                                <td>Padangan</td>
+                                <td>16</td>
+                                <td>37</td>
+                                <td>59</td>
+                                <td>207</td>
+                            </tr>
+                            <tr>
+                                <td>Kasiman</td>
+                                <td>10</td>
+                                <td>30</td>
+                                <td>41</td>
+                                <td>179</td>
+                            </tr>
+                            <tr>
+                                <td>Kedewan</td>
+                                <td>5</td>
+                                <td>11</td>
+                                <td>18</td>
+                                <td>69</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- End of Main Content -->
+    </section>
+
+    <!-- Tentang Bojonegoro-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h5 class="page-section-heading text-center text-uppercase text-white">TENTANG BOJONEGORO</h5>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <!-- iframe-->
+            <div class="card-body">
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <h5 class="m-0 font-weight-bold text-primary" style="text-align: center;">Letak
+                            Administratif
+                            Kabupaten Bojonegoro</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="map-container-google-1" class="z-depth-1-half map-container" style="width: 100%">
+                            <iframe
+                                src="https://maps.google.com/maps?q=KabupatenBojonegoro&t=&z=9&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" style="width: 100%; height: 400px; border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead" style="text-align:justify"><b>Kabupaten Bojonegoro </b>merupakan daerah yang
+                        berada di
+                        Wilayah Provinsi
+                        Jawa Timur, terletak pada
+                        posisi
+                        60 59’ sampai 70 37’ Lintang Selatan dan 1120 25’ sampai 1120 09’ Bujur Timur, dengan
+                        jarak
+                        + 110 km
+                        dari ibu kota provinsi. Luas wilayah Kabupaten Bojonegoro adalah 230.706 ha dengan
+                        jumlah
+                        penduduk pada
+                        akhir Tahun 2018 1.311.042 jiwa, dan secara administratif memiliki batas wilayah yaitu
+                        sebelah Utara
+                        Kabupaten Tuban, sebelah Selatan Kabupaten Madiun, Nganjuk dan Jombang, Sebelah Timur
+                        Kabupaten Lamongan
+                        dan sebelah Barat Kabupaten Ngawi dan Kabupaten Blora (Provinsi Jawa Tengah). Pembagian
+                        Wilayah
+                        Kabupaten Bojonegoro terdiri dari 28 Kecamatan, meliputi 11 kelurahan dan 419 desa.</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead" style="text-align:justify">Keadaan topografi Kabupaten Bojonegoro didominasi
+                        oleh
+                        keadaan tanah yang
+                        berbukit yang berada di
+                        sebelah Selatan (Pegunungan Kapur Selatan) dan Utara (Pegunungan Kapur Utara) yang
+                        mengapit
+                        dataran
+                        rendah yang berada di sepanjang aliran Bengawan Solo yang merupakan daerah pertanian
+                        yang
+                        subur.
+                        Permukaan tanah di Kabupaten Bojonegoro rata-rata relatif rendah, yaitu berada pada
+                        ketinggian
+                        antara
+                        25m-500m dari permukaan laut dengan kemiringan rata-rata mencapai kurang dari 2%, serta
+                        dengan
+                        curah
+                        hujan di wilayah ini umumnya tidak merata yaitu berkisar antara 1.500 mm – 2.500 mm
+                        pertahun.
+                    </p>
+                    <a target="_blank" rel="nofollow" href="http://www.bojonegorokab.go.id/geografi">
+                        <h6>Baca
+                            Selengkapanya...
+                            &rarr;</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Dibuat</h4>
+                    <p class="lead mb-0">
+                        Habib Husyien Al-Bani
+                        <br />
+                        Aulia Putri Maulida
+                        <br />
+                        Miranda Puspita Ramadhani
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Instansi</h4>
+                    <p class="lead mb-0">
+                        Universitas Gadjah Mada
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small style="color: aliceblue;">Web Informasi Geospasial Kabupaten Bojonegoro
+                2020</small></div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Portfolio Modals-->
+    <!-- Kependudukan-->
+    <div class="portfolio-modal modal fade" id="Kependudukan" tabindex="-1" role="dialog"
+        aria-labelledby="KependudukanLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="KependudukanLabel">Kependudukan</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Kependudukan.png"
+                                    alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi kependudukan jumlah penduduk,
+                                    kepadatan penduduk, angka kelahiran dan angka kematian dalam bentuk
+                                    visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Peta/Peta Kependudukan/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sarana Prasarana-->
+    <div class="portfolio-modal modal fade" id="SaranaPrasarana" tabindex="-1" role="dialog"
+        aria-labelledby="SaranaPrasaranaLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="SaranaPrasaranaLabel">Sarana Prasarana</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Sarpras.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi sarana dan prasarana, fasilitas umum di
+                                    wilayah Kabupaten Bojonegoro dalam bentuk visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light"
+                                        href="./Peta/Peta Sarana Prasarana/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Aksesbilitas -->
+    <div class="portfolio-modal modal fade" id="Aksesbilitas" tabindex="-1" role="dialog"
+        aria-labelledby="AksesbilitasLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="AksesbilitasLabel">Aksesbilitas</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Akses.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi aksesbilitas jalan, jembatan, sungai dalam
+                                    bentuk visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Peta/Peta Aksesbilitas/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Penggunaan Lahan -->
+    <div class="portfolio-modal modal fade" id="PenggunaanLahan" tabindex="-1" role="dialog"
+        aria-labelledby="PenggunaanLahanLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="PenggunaanLahanLabel">Penggunaan Lahan</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/PL.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi penggunaan lahan wilayah Kabupaten
+                                    Bojonegoro
+                                    dalam bentuk visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light"
+                                        href="./Peta/Peta Penggunaan Lahan/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bentuk Lahan-->
+    <div class="portfolio-modal modal fade" id="BentukLahan" tabindex="-1" role="dialog" aria-labelledby="BentukLahan"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="BentukLahan">
+                                    Bentuk Lahan</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/BL.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi geologi, morfologi, jenis tanah, dan
+                                    kelerengan di wilayah Kabupaten Bojonegoro dalam bentuk visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Peta/Peta Bentuklahan/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Sumber Daya Alam-->
+    <div class="portfolio-modal modal fade" id="SumberDayaAlam" tabindex="-1" role="dialog"
+        aria-labelledby="SumberDayaAlamLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="SumberDayaAlamLabel">Sumber Daya Alam</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/SDA.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi pariwisata dan sumber daya alam di wilayah
+                                    Kabupaten Bojonegoro dalam bentuk visualisasi
+                                    peta berbasis web yang representatif.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Peta/Peta Pariwisata/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ekonomi-->
+    <div class="portfolio-modal modal fade" id="Ekonomi" tabindex="-1" role="dialog" aria-labelledby="EkonomiLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="EkonomiLabel">
+                                    Ekonomi</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Ekonomi.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi Produk Domestik Regional Bruto (PDRB)Kabupaten
+                                    Bojonegoro dalam visualisasi grafik dan data tabuler.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Tabel/index.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Analisis Spasial-->
+    <div class="portfolio-modal modal fade" id="AnalisisSpasial" tabindex="-1" role="dialog"
+        aria-labelledby="AnalisisSpasialLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="AnalisisSpasialLabel">Analisis Spasial</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Analisis.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Menampilkan informasi analisis spaial berupa <i>Closet Fasility
+                                        (Near Me), Routing, Info Summary</i> dengan dilengkapi visualisasi peta berbasis
+                                    web yang
+                                    representatif </p>
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="./Analisis/Analisis.html">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Laporkan Masalah-->
+    <div class="portfolio-modal modal fade" id="LaporkanMasalah" tabindex="-1" role="dialog"
+        aria-labelledby="LaporkanMasalahLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h5 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="LaporkanMasalahLabel">Laporkan Masalah</h5>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-globe"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Laporan.png" alt="" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Berisi <i>form</i> yang digunakan untuk melaporakan masalahan terkait
+                                    informasi yang ada di dalam WIGDA, serta kritik dan saran yang membangun guna
+                                    menunjang pembangunan wilayah yang lebih baik.
+                                </p>
+                                <div class="text-center mt-4">
+                                    <a class="btn btn-xl btn-outline-light" href="https://arcg.is/0LzT5D">
+                                        <i class="fas fa-sign-in-alt mr-2"></i>
+                                        Masuk
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Contact form JS-->
+    <script src="assets/mail/jqBootstrapValidation.js"></script>
+    <script src="assets/mail/contact_me.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/datatables/jquery.dataTables.min.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/datatables-demo.js"></script>
+</body>
+
+</html>
