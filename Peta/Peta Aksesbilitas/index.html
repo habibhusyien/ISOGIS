@@ -466,7 +466,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,255,255,0.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_BatasKecamatan_4');
@@ -474,7 +474,7 @@
         map.getPane('pane_BatasKecamatan_4').style['mix-blend-mode'] = 'normal';
         var layer_BatasKecamatan_4 = new L.geoJson(json_BatasKecamatan_4, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_BatasKecamatan_4',
             layerName: 'layer_BatasKecamatan_4',
             pane: 'pane_BatasKecamatan_4',
@@ -594,8 +594,6 @@
             '<img src="legend/Sungai_2.png" /> Sungai': layer_Sungai_2,
             'Perairan<br /><table><tr><td style="text-align: center;"><img src="legend/Perairan_1_Sungai0.png" /></td><td>Sungai</td></tr><tr><td style="text-align: center;"><img src="legend/Perairan_1_Waduk1.png" /></td><td>Waduk</td></tr><tr><td style="text-align: center;"><img src="legend/Perairan_1_Danau2.png" /></td><td>Danau</td></tr><tr><td style="text-align: center;"><img src="legend/Perairan_1_Embung3.png" /></td><td>Embung</td></tr><tr><td style="text-align: center;"><img src="legend/Perairan_1_4.png" /></td><td></td></tr></table>': layer_Perairan_1,
             "OSM Standard": layer_OSMStandard_0,
-        }, {
-            collapsed: false
         }).addTo(map);
         setBounds();
         var i = 0;

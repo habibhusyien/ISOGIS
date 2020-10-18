@@ -475,7 +475,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(190,207,80,0.0)',
-                interactive: false,
+                interactive: true,
             }
         }
         map.createPane('pane_BatasKecamatan_2');
@@ -483,7 +483,7 @@
         map.getPane('pane_BatasKecamatan_2').style['mix-blend-mode'] = 'normal';
         var layer_BatasKecamatan_2 = new L.geoJson(json_BatasKecamatan_2, {
             attribution: '',
-            interactive: false,
+            interactive: true,
             dataVar: 'json_BatasKecamatan_2',
             layerName: 'layer_BatasKecamatan_2',
             pane: 'pane_BatasKecamatan_2',
@@ -535,8 +535,6 @@
             '<img src="legend/BatasKecamatan_2.png" /> Batas Kecamatan': layer_BatasKecamatan_2,
             'Penggunaan Lahan<br /><table><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_0.png" /></td><td></td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_DanauBendungan1.png" /></td><td>Danau/Bendungan</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Embung2.png" /></td><td>Embung</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Hutan3.png" /></td><td>Hutan</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_HutanLindung4.png" /></td><td>Hutan Lindung</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_HutanProduksi5.png" /></td><td>Hutan Produksi</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Industri6.png" /></td><td>Industri</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Kebun7.png" /></td><td>Kebun</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Ladang8.png" /></td><td>Ladang</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Pemukiman9.png" /></td><td>Pemukiman</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Pertambangan10.png" /></td><td>Pertambangan</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_SawahIrigasi11.png" /></td><td>Sawah Irigasi</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_SawahTadahHujan12.png" /></td><td>Sawah Tadah Hujan</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_SemakBelukar13.png" /></td><td>Semak Belukar</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_Sungai14.png" /></td><td>Sungai</td></tr><tr><td style="text-align: center;"><img src="legend/PenggunaanLahan_1_TanahKosongPadangRumput15.png" /></td><td>Tanah Kosong/Padang Rumput</td></tr></table>': layer_PenggunaanLahan_1,
             "OSM Standard": layer_OSMStandard_0,
-        }, {
-            collapsed: false
         }).addTo(map);
         setBounds();
         var i = 0;
