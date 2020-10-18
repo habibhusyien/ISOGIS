@@ -466,7 +466,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(255,255,255,0.0)',
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_BatasKecamatan_4');
@@ -474,7 +474,7 @@
         map.getPane('pane_BatasKecamatan_4').style['mix-blend-mode'] = 'normal';
         var layer_BatasKecamatan_4 = new L.geoJson(json_BatasKecamatan_4, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_BatasKecamatan_4',
             layerName: 'layer_BatasKecamatan_4',
             pane: 'pane_BatasKecamatan_4',
